@@ -1,4 +1,4 @@
-// ========== PART 1: VARIABLES, DATA TYPES & CONDITIONALS ==========
+// PART 1: VARIABLES, DATA TYPES & CONDITIONALS 
 const pricePerItem = 100; // constant price per item
 
 // Function to validate input values
@@ -14,7 +14,7 @@ function validateInputs(name, items) {
     return true;
 }
 
-// ========== PART 2: FUNCTIONS ==========
+// PART 2: FUNCTIONS 
 function calculateTotal(items) {
     return items * pricePerItem;
 }
@@ -24,7 +24,7 @@ function displayResult(name, total) {
     output.textContent = name + ", your total cost is: " + total;
 }
 
-// ========== PART 3: LOOPS ==========
+// PART 3: LOOPS 
 const sampleItems = ["Apples", "Bananas", "Oranges", "Mangoes"];
 const itemList = document.getElementById("itemList");
 
@@ -42,7 +42,7 @@ while (index < sampleItems.length) {
     index++;
 }
 
-// ========== PART 4: DOM INTERACTIONS ==========
+// PART 4: DOM INTERACTIONS 
 const button = document.getElementById("calculateBtn");
 
 button.addEventListener("click", function () {
